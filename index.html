@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Свадебные букеты</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="flower.ico">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <img src="logo.png" alt="logo" width="100px"> 
+        <nav class="links">
+          <a class="link" href="#">О нас</a>
+          <a class="link" href="#">Заказать</a>
+          <a class="link" href="#">Контакты</a>
+        </nav>
+    </div>
+
+    <div class="heading">
+        <h1>Свадебные букеты</h1>     
+    </div>
+    <br>
+
+    <div class="container">
+        <div class="item one selected">
+            <h4 class="name">Феерия</h4>
+            <p class="par">Свадебный букет невесты из разноцветных кустовых роз и эустомы имеет очень приятный, нежный аромат.</p>
+            <p class="price">80$</p>
+        </div>
+        <div class="item two">
+            <h4 class="name">Верность</h4>
+            <p class="par">Свадебный букет невесты из белых роз, эвкалипта и декоративной зелени.</p>
+            <p class="price">110$</p>
+        </div>
+        <div class="item three">
+            <h4 class="name">Поцелуй</h4>
+            <p class="par">Свадебный букет невесты из разноцветных кустовых роз, ягод и декоративной зелени.</p>
+            <p class="price">80$</p>
+        </div>
+        <div class="item four">
+            <h4 class="name">Чарующий</h4>
+            <p class="par">Свадебный букет невесты из белой орхидеи, красных роз и эвкалипта.</p>
+            <p class="price">100$</p>
+        </div>
+        <div class="item five">
+            <h4 class="name">Нежность</h4>
+            <p class="par">Свадебный букет невесты из белых и персиковых роз с декоративной зеленью.</p>
+            <p class="price">60$</p>
+        </div>
+        <div class="item six">
+            <h4 class="name">Соната</h4>
+            <p class="par">Свадебный букет невесты из белых и кремовыз роз, ромашек и гортензии с декоративной зеленью.</p>
+            <p class="price">80$</p>
+        </div>
+    </div>
+    <div class="heading" data-aos="zoom-in" data-aos-duration="1000">
+        <h3>Отправить сообщение</h3>
+    </div>
+
+    <!-- modify this form HTML and place wherever you want your form -->
+
+<form
+action="https://formspree.io/f/mgeqorew"
+method="POST">
+<input type="hidden" name="_language" value="en"/>
+<div class="heading" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-sine">
+    <label>
+    Ваш email:
+    <input type="email" name="email" placeholder="Ваш email" class="text_input" required="">
+    </label>
+</div>
+<br>
+<div class="heading" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-sine">
+    <label>
+    Ваше сообщение:
+    <textarea name="message" placeholder="Ваше сообщение" class="text_input" required=""></textarea>
+    </label>
+</div>
+<br>
+<!-- your other form fields go here -->
+<div class="heading">
+    <button type="submit" class="btn">Send</button>
+</form>
+</div>
+    
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
